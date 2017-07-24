@@ -1,0 +1,10 @@
+CREATE SCHEMA `zoo_zoodb` DEFAULT CHARACTER SET utf8 ;
+CREATE TABLE `zoo_zoodb`.`animalad` (
+  `title` VARCHAR(100) NOT NULL,
+  `url` VARCHAR(150) NOT NULL,
+  `price` VARCHAR(20) NOT NULL,
+  `place` VARCHAR(50) NOT NULL,
+  `kindAnimal` VARCHAR(22) NOT NULL,
+  `type` VARCHAR(20) NOT NULL)
+ENGINE = InnoDB
+DEFAULT CHARACTER SET = utf8;
